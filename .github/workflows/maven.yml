@@ -24,5 +24,7 @@ jobs:
         with:
           java-version: '17'
           distribution: 'adopt'
+      - name: Change directory
+        run: cd GanPro
       - name: Build with Maven
         run: mvn clean test
