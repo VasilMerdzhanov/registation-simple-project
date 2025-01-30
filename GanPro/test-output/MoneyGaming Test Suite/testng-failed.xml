@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MoneyGaming Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Registration Test(failed)">
+    <classes>
+      <class name="com.moneygaming.tests.RegistrationTest">
+        <methods>
+          <include name="testRegistrationValidation"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.moneygaming.tests.RegistrationTest -->
+    </classes>
+  </test> <!-- Registration Test(failed) -->
+</suite> <!-- Failed suite [MoneyGaming Test Suite] -->
